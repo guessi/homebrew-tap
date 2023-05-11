@@ -1,29 +1,29 @@
 class CloudtrailCli < Formula
   desc "Blazing fast single purpose cli for CloudTrail log filtering"
   homepage "https://github.com/guessi/cloudtrail-cli"
-  version "1.0.2"
+  version "1.0.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.2/cloudtrail-cli-Darwin-arm64.tar.gz"
-      sha256 "9fdf7fa72c2e842f9514605698a3a345f83f082b73d6a2be3586dc83e5885e80"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.3/cloudtrail-cli-Darwin-arm64.tar.gz"
+      sha256 "5686302c2595996f359a0eb076c1e2a758cfe514b99c96a49ad8ceed2198870e"
     end
     on_intel do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.2/cloudtrail-cli-Darwin-x86_64.tar.gz"
-      sha256 "040dda6287ee4bbc314e658b93c411799e7f317cb8a6e18bb1cc184432888bf6"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.3/cloudtrail-cli-Darwin-x86_64.tar.gz"
+      sha256 "972c791c01edcd33d08233d720da559102008615a8ed5d96da9af6ef87307c68"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.2/cloudtrail-cli-Linux-arm64.tar.gz"
-      sha256 "4cd06fd1e6fce5ba0a9cb82ef1ac88d3166db5a9485add6bbbc6f0f85a5179c8"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.3/cloudtrail-cli-Linux-arm64.tar.gz"
+      sha256 "1808a3bfcc89311f10b62cb9331bb9d3be009c7b1de5aeca2d37e7e791a84107"
     end
 
     on_intel do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.2/cloudtrail-cli-Linux-x86_64.tar.gz"
-      sha256 "5c3fe05dc8e8373431c937cf42983b00dd8a1f92acbcd29b5775293ae95b6800"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.0.3/cloudtrail-cli-Linux-x86_64.tar.gz"
+      sha256 "fdce022173d0485d4112f4945e37b1e8d4a0da976438c319b296297c8e895736"
     end
   end
 
