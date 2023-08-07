@@ -1,5 +1,5 @@
 class EksAmiFinder < Formula
-  desc "retrieve Amazon EKS AMI with filters"
+  desc "Retrieve Amazon EKS AMI with filters"
   homepage "https://github.com/guessi/eks-ami-finder"
   version "1.0.2"
   license "Apache-2.0"
