@@ -1,29 +1,29 @@
 class EksAmiFinder < Formula
   desc "Retrieve Amazon EKS AMI with filters"
   homepage "https://github.com/guessi/eks-ami-finder"
-  version "1.0.7"
+  version "1.0.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.7/eks-ami-finder-Darwin-arm64.tar.gz"
-      sha256 "5cebbbc558ac6361d5b8ded28693da6fb8435dfcd25334d2690cb7dc1616077d"
+      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.8/eks-ami-finder-Darwin-arm64.tar.gz"
+      sha256 "44f01320fe8d478b0cb64d60e5e3a3eea8c661b09cfd7a493698834903ee23af"
     end
     on_intel do
-      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.7/eks-ami-finder-Darwin-x86_64.tar.gz"
-      sha256 "8bdd07479fe9aa775937b3be09a1d5e44b39d9053bb77dd4ad1fd3cbef32e793"
+      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.8/eks-ami-finder-Darwin-x86_64.tar.gz"
+      sha256 "9b2b283910d498f69cca8c6552ff04f9a6233f2784266edc8fd0632e76aef5df"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.7/eks-ami-finder-Linux-arm64.tar.gz"
-      sha256 "3af60a401a152db0822d6f0024dc0650cc2ce12b10db63645818cae4a8f0b313"
+      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.8/eks-ami-finder-Linux-arm64.tar.gz"
+      sha256 "a25069c1f53eaefde4ced043e41a3e43ee53a15dda6fa8e8df878a95ec18c1f6"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.7/eks-ami-finder-Linux-x86_64.tar.gz"
-      sha256 "536201a33439881f390145c086c1317ce65815b395e874fd180b34f7fe23a491"
+      url "https://github.com/guessi/eks-ami-finder/releases/download/v1.0.8/eks-ami-finder-Linux-x86_64.tar.gz"
+      sha256 "e23c2e8ebaf0feb390205ae4d23d41d040b7c8c494cdba07d506470c9bb33ae7"
     end
   end
 
