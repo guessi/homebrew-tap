@@ -1,10 +1,10 @@
-# Guessi Tap
+# Personal tap collections
 
 ## How do I install these formulae?
 
 `brew install guessi/tap/<formula>`
 
-Or `brew tap guessi/tap` and then `brew install <formula>`.
+Or `brew tap guessi/tap && brew update && brew install <formula>`.
 
 ## Documentation
 
