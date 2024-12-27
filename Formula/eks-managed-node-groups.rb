@@ -1,29 +1,29 @@
 class EksManagedNodeGroups < Formula
   desc "managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
-  version "1.0.0"
+  version "1.0.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.0/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "996767c669cb9efce77a3823ce159cdf4c2ffc742b75a1751d4131fb5053e378"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.1/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "b6f2a30d9820e009c5e0330bd072df3e907ac33eb8978cc10259a147d2e3e752"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.0/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "8c98d2431aff7e89a5b11abb7e7598fccb760c90a9866e37c230e2e9849ee9f1"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.1/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "d5ef69b1d149f980781ed239bae7b0f1cce3245bf17ea674c5f64ddf5cf03569"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.0/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "85aa5f4c67a86c59f83e782ff3e4310c8ecac6d1d96a295e218f2626e7c67440"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.1/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "f13cd2a4e0f6d83f3a06c064af134da12aa2c5302d4beacfb15534f430696ef2"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.0/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "f05bb8853845380a47280199bc2f77cfdc871c6b582bacb284764af2bc5f6710"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.1/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "2a72ec77494552386f067c45abb7332a81ac7e5c4494a6512ea3e35cdf4fb894"
     end
   end
 
