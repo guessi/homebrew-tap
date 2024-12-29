@@ -1,5 +1,5 @@
 class EksManagedNodeGroups < Formula
-  desc "managed Amazon EKS node group made easy"
+  desc "Managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
   version "1.0.1"
   license "Apache-2.0"
