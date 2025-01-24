@@ -1,5 +1,5 @@
 class EksNodeDiagnostic < Formula
-  desc " Friendly NodeDiagnostic generator with no Python/SDK required"
+  desc "Friendly NodeDiagnostic generator with no Python/SDK required"
   homepage "https://github.com/guessi/eks-node-diagnostic"
   version "1.0.0"
   license "Apache-2.0"
