@@ -1,29 +1,29 @@
 class EksNodeDiagnostic < Formula
   desc "Friendly NodeDiagnostic generator with no Python/SDK required"
   homepage "https://github.com/guessi/eks-node-diagnostic"
-  version "1.0.0"
+  version "1.1.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.0.0/eks-node-diagnostic-Darwin-arm64.tar.gz"
-      sha256 "4af509cd73af89a44692b02c53cb5a74f3853df7f855b854aa2fa6e28020cc9e"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.1.0/eks-node-diagnostic-Darwin-arm64.tar.gz"
+      sha256 "8e2c4cd275c0903f12ea18761b453109b45bc47f8c91cea7e6ac05604307934f"
     end
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.0.0/eks-node-diagnostic-Darwin-x86_64.tar.gz"
-      sha256 "fe77cc21d66c98535b3dcda976c07858b3a977257f9085ba99cead957ef3de50"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.1.0/eks-node-diagnostic-Darwin-x86_64.tar.gz"
+      sha256 "e00035dd78153e688f3645c65cc48c6601f15a9c9a5133c4bcd42714f08f2c3e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.0.0/eks-node-diagnostic-Linux-arm64.tar.gz"
-      sha256 "d93d33a3483dc3b2e59be6542110f9e17946eb298e2681538c0c4fa84d7cbf2d"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.1.0/eks-node-diagnostic-Linux-arm64.tar.gz"
+      sha256 "ae81166e64c947863cbfe0ac7d0c705a34bc2f8ff9b82977fcda4e76b8b73b03"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.0.0/eks-node-diagnostic-Linux-x86_64.tar.gz"
-      sha256 "19ee095cbc676744fcbe7b14435755c50893f076d5294e71b03432bdf10ea520"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.1.0/eks-node-diagnostic-Linux-x86_64.tar.gz"
+      sha256 "078bd1d6c3be3e453562e13d1ca881cfb0416e53dcda66614e69e726579c48d5"
     end
   end
 
