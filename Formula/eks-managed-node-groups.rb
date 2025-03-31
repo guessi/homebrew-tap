@@ -1,29 +1,29 @@
 class EksManagedNodeGroups < Formula
   desc "Managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
-  version "1.0.5"
+  version "1.0.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.5/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "49764a4c8422cd6359a54fd5047da6a24af92fbb01723a6659d208004ccb443d"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.6/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "3fe64739940655a6198914f0e826626aed77b0246f04b18ff90bd620250fbeb6"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.5/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "b7aa7989625ba46374367eeecb92817bee5e880d1569a2a0faf98c3fa247a9f0"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.6/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "697c4246010be0762b8fbc5bb0796ea6977903c868ba204fbf253715aa91289a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.5/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "59f974cfef523983536c1aa93ccebd76f7eef49b9a24c027398d23ff6266856e"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.6/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "0b22642d9e197a46e8406964a22ce8919437a4032e2f25536537cdce19bc774c"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.5/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "dc54f1eaba1373565c755964112f26872aae3472a1ddc173d535bb5acfd0f968"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.6/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "ec3eabd46a50eb05c733334ad14499336974cdca2322d2a4d608a6fa85f14452"
     end
   end
 
