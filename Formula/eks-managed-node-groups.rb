@@ -1,29 +1,29 @@
 class EksManagedNodeGroups < Formula
   desc "Managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
-  version "1.0.7"
+  version "1.0.8"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.7/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "94179bd3c7d6b25ad141fa15d16511f81a5216821a6506286b01a6b5a6ca8063"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "1bad746fdc3000b7416dd275ae9759b84e5bbd09e8c840eb279e2c9308bef85c"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.7/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "e901908238c0c46c0d0e0f5805f75d876f54b465528a3c5247734aa4c3872709"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "0236f117ceb4da212658e0a3a45f3c89864d360bb45bd80598eb238e74c6ed5f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.7/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "0acc115870fc22d66bbd74169f2d9c3da1832e20f9b3b7b8ab855a8c298b156b"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "7a4c56f264de66aeb62d4965d11c15211888c1d50bb3ca0ba4b3b77fe863a9c4"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.7/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "491d3b0b318225ce3aff66cc74b128626645718c5a3ae5c4e1d097f897045607"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "491d3b0b318225ce3aff66cc74b128626645718c5a3ae5c4e1.0.ce886de29a3303260ebc1f1feec63d9b8071b922267b8b2ef35642f2fc002ad4"
     end
   end
 
