@@ -23,7 +23,7 @@ class EksManagedNodeGroups < Formula
 
     on_intel do
       url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "491d3b0b318225ce3aff66cc74b128626645718c5a3ae5c4e1.0.ce886de29a3303260ebc1f1feec63d9b8071b922267b8b2ef35642f2fc002ad4"
+      sha256 "ce886de29a3303260ebc1f1feec63d9b8071b922267b8b2ef35642f2fc002ad4"
     end
   end
 
