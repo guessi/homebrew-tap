@@ -1,29 +1,29 @@
 class EksManagedNodeGroups < Formula
   desc "Managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
-  version "1.0.8"
+  version "1.0.9"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "1bad746fdc3000b7416dd275ae9759b84e5bbd09e8c840eb279e2c9308bef85c"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.9/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "c8b24f1364178b8100b02222d27634c161846ded029929bf0e7a08c9dc235478"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "0236f117ceb4da212658e0a3a45f3c89864d360bb45bd80598eb238e74c6ed5f"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.9/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "b55b9ebf2bab59cc197128f303c7f4a944e4314fd24ca3f632de4e9f304a65ac"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "7a4c56f264de66aeb62d4965d11c15211888c1d50bb3ca0ba4b3b77fe863a9c4"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.9/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "6536e34fd0e352aeecbb5508015ed1086fa0943369854f4bc813eb0dbdeb40d4"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.8/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "ce886de29a3303260ebc1f1feec63d9b8071b922267b8b2ef35642f2fc002ad4"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.0.9/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "7ee238b3f39eedd8c894edf74e1a91bed4e8d094cbe40be88bb265e8ab0bbbbf"
     end
   end
 
