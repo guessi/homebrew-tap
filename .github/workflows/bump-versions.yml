@@ -1,0 +1,31 @@
+name: Bump Formula Versions
+
+on:
+  schedule:
+    - cron: '0 2 * * 1'  # Every Monday at 2 AM UTC
+  workflow_dispatch:
+
+jobs:
+  bump-versions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install requests tqdm
+
+      - name: Bump versions
+        run: python .github/scripts/bump_versions.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: 'Bump formula versions'
+          title: 'Weekly formula version bump'
+          body: 'Automated weekly version bump for formulas'
+          branch: bump-versions
