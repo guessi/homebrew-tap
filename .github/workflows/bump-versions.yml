@@ -7,6 +7,7 @@ on:
 
 jobs:
   bump-versions:
+    if: github.repository == 'guessi/homebrew-tap'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
