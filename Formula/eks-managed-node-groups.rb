@@ -1,29 +1,29 @@
 class EksManagedNodeGroups < Formula
   desc "Managed Amazon EKS node group made easy"
   homepage "https://github.com/guessi/eks-managed-node-groups"
-  version "1.3.0"
+  version "1.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.3.0/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "bab742b34ee377464e58d52104aebb8c386c40205d875b58487d395c71a2a7de"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.4.0/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "e0ab3e4bfb7d0528e6aac8c87e56b6a036b6700564698d9367efdf773df848df"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.3.0/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "05a63b2e8fbdac29599603b2d85dfe3805c118b50ccae2688fb487b5d65b4299"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.4.0/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "57c2113ae4bf502884b2272dc208e1369728bc2ebda15253927b22b649b9dd3c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.3.0/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "8343c4ac0f93b110de36a501c0dce8fb774f83521ce5613dc892f7f5f1e8bb2e"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.4.0/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "bc0a922b7f7e14ef64d82db2274243bcd6e9e6947de07998694f7f48e1045792"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.3.0/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "5279461c4e3bd12ea5ab593ca8f617bbe4a9b2d559909bb97a092b122dc2bd9c"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.4.0/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "faf9f024566da7575d2e2f6c9891790a30e926ebd68c6935a77cc323956688b2"
     end
   end
 
