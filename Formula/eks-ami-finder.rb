@@ -41,6 +41,6 @@ class EksAmiFinder < Formula
     system "#{bin}/eks-ami-finder", "--version"
 
     output = shell_output("#{bin}/eks-ami-finder --version")
-    assert_match "eks-ami-finder version", output
+    assert_match "eks-ami-finder version v#{version}", output
   end
 end

@@ -41,6 +41,6 @@ class CloudtrailCli < Formula
     system "#{bin}/cloudtrail-cli", "--version"
 
     output = shell_output("#{bin}/cloudtrail-cli --version")
-    assert_match "cloudtrail-cli version", output
+    assert_match "cloudtrail-cli version v#{version}", output
   end
 end

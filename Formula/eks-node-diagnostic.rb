@@ -41,6 +41,6 @@ class EksNodeDiagnostic < Formula
     system "#{bin}/eks-node-diagnostic", "--version"
 
     output = shell_output("#{bin}/eks-node-diagnostic --version")
-    assert_match "eks-node-diagnostic version", output
+    assert_match "eks-node-diagnostic version v#{version}", output
   end
 end

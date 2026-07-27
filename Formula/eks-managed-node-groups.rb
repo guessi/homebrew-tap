@@ -41,6 +41,6 @@ class EksManagedNodeGroups < Formula
     system "#{bin}/eks-managed-node-groups", "--version"
 
     output = shell_output("#{bin}/eks-managed-node-groups --version")
-    assert_match "eks-managed-node-groups version", output
+    assert_match "eks-managed-node-groups version v#{version}", output
   end
 end
