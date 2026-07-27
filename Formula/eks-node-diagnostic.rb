@@ -1,29 +1,29 @@
 class EksNodeDiagnostic < Formula
   desc "Friendly NodeDiagnostic generator with no Python/SDK required"
   homepage "https://github.com/guessi/eks-node-diagnostic"
-  version "1.11.0"
+  version "1.12.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.11.0/eks-node-diagnostic-Darwin-arm64.tar.gz"
-      sha256 "dee601a479e339bd3f4d28ca60056eef354fbd4e0e7b07c1c5ae2f5a28fde7e6"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Darwin-arm64.tar.gz"
+      sha256 "4da05fd6f50831e5c74513369a6899447b66b78d66cb0f3358eb70a88e6c4821"
     end
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.11.0/eks-node-diagnostic-Darwin-x86_64.tar.gz"
-      sha256 "209297e2493abdcd32dfb708692c56e8c5da7682502b8e906416ded744470553"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Darwin-x86_64.tar.gz"
+      sha256 "b7e2f5ec98262c3d16e2064b3f29e60d237f06adbdac303d8b27ed578dbfbee5"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.11.0/eks-node-diagnostic-Linux-arm64.tar.gz"
-      sha256 "9ae102eb4dbb7ce1e268178fc8ffdb791b52e79d81c05a78f5ac2033f43d6edf"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Linux-arm64.tar.gz"
+      sha256 "8853eb9922a7f02dda4eb67c56f40afa061a316d195a82cde61c58622bd16d6b"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.11.0/eks-node-diagnostic-Linux-x86_64.tar.gz"
-      sha256 "fba4a2e3c3077299c64db4205e672f4c7c0c2417a831174735bbb820601dc352"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Linux-x86_64.tar.gz"
+      sha256 "913de2b14e5dc49cb8b79851014e8753cf1b1a792f38f38b0bd1bc7d36f641e0"
     end
   end
 
