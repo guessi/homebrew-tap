@@ -1,7 +1,6 @@
 class EksAmiFinder < Formula
   desc "Retrieve Amazon EKS AMI with filters"
   homepage "https://github.com/guessi/eks-ami-finder"
-  version "1.16.0"
   license "Apache-2.0"
 
   on_macos do

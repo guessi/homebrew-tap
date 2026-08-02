@@ -1,7 +1,6 @@
 class CloudtrailCli < Formula
   desc "Blazing fast single purpose cli for CloudTrail log filtering"
   homepage "https://github.com/guessi/cloudtrail-cli"
-  version "1.8.0"
   license "Apache-2.0"
 
   on_macos do
