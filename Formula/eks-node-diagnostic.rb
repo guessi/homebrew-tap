@@ -5,24 +5,24 @@ class EksNodeDiagnostic < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Darwin-arm64.tar.gz"
-      sha256 "4da05fd6f50831e5c74513369a6899447b66b78d66cb0f3358eb70a88e6c4821"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.13.0/eks-node-diagnostic-Darwin-arm64.tar.gz"
+      sha256 "111d4ed8228c1796d48602f4b1dbe9546487de9b8e36fa9073d926f02e5b98a1"
     end
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Darwin-x86_64.tar.gz"
-      sha256 "b7e2f5ec98262c3d16e2064b3f29e60d237f06adbdac303d8b27ed578dbfbee5"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.13.0/eks-node-diagnostic-Darwin-x86_64.tar.gz"
+      sha256 "45e1f9b6e1cdd6d1d0bf07af636608c60162a123355a37da3d1704ef24026542"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Linux-arm64.tar.gz"
-      sha256 "8853eb9922a7f02dda4eb67c56f40afa061a316d195a82cde61c58622bd16d6b"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.13.0/eks-node-diagnostic-Linux-arm64.tar.gz"
+      sha256 "26744752ed0954fd20b898fc14ee760aafddba1e47e261a3d1a015d3e268bf04"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.12.1/eks-node-diagnostic-Linux-x86_64.tar.gz"
-      sha256 "913de2b14e5dc49cb8b79851014e8753cf1b1a792f38f38b0bd1bc7d36f641e0"
+      url "https://github.com/guessi/eks-node-diagnostic/releases/download/v1.13.0/eks-node-diagnostic-Linux-x86_64.tar.gz"
+      sha256 "ba2e65b46bf4cdb668c97a3fa92b06def1699ce6cadba83608ff91ec72d50d40"
     end
   end
 
