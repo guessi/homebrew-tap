@@ -5,24 +5,24 @@ class CloudtrailCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.8.0/cloudtrail-cli-Darwin-arm64.tar.gz"
-      sha256 "0c36c28f1c1d927cdc51c1c23393f267c5912b6016b86eb6a32d31e393eaf82e"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.9.0/cloudtrail-cli-Darwin-arm64.tar.gz"
+      sha256 "2ebdb711b230acc82071213c76f8c28afc1114688da68b7daa7b1252acf7d259"
     end
     on_intel do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.8.0/cloudtrail-cli-Darwin-x86_64.tar.gz"
-      sha256 "0aa498ea2332981b0197ae7c4fda6c342bab538ef885c0ea8ed7e744b94ea695"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.9.0/cloudtrail-cli-Darwin-x86_64.tar.gz"
+      sha256 "22118c43515b0bf0eda044f75bacff07f4e77ecc888222cff80ead3e58b3e99b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.8.0/cloudtrail-cli-Linux-arm64.tar.gz"
-      sha256 "dd8453c19f30ee90d858176dc4301f27d8d19aff3fb08539ade271b9ae6efc96"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.9.0/cloudtrail-cli-Linux-arm64.tar.gz"
+      sha256 "70b12b8f603d67b3eb829bf6dcac62f83d80e3fe1e60538952f92f76d1937291"
     end
 
     on_intel do
-      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.8.0/cloudtrail-cli-Linux-x86_64.tar.gz"
-      sha256 "5d1aa209b1265aa977c944ce54779c4db31cfb1f4cb8e931e76ed80d5ad5d8f7"
+      url "https://github.com/guessi/cloudtrail-cli/releases/download/v1.9.0/cloudtrail-cli-Linux-x86_64.tar.gz"
+      sha256 "e52940675a3b9facc8f92ebbd49ffc6f57f1b906a4bef3cc095cdfc84a0ee6b3"
     end
   end
 
