@@ -60,9 +60,6 @@ def update_formula(formula_path: Path, repo: str, new_version: str) -> None:
 
     content = formula_path.read_text()
 
-    print(f"  → Updating version to {new_version}")
-    content = re.sub(r'version "[\d\.]+"', f'version "{new_version}"', content)
-
     repo_name = repo.split('/')[-1]
     urls = [
         (f"https://github.com/{repo}/releases/download/v{new_version}/"
@@ -117,6 +114,7 @@ def main() -> None:
     }
 
     print(f"Found {len(formulas)} formulas to check")
+    failed = []
 
     for formula_file, repo in formulas.items():
         print(f"\n📦 Processing {repo}")
@@ -135,10 +133,13 @@ def main() -> None:
         print("  → Reading current formula")
         current_content = formula_path.read_text()
 
-        current_version_match = re.search(r'version "([\d\.]+)"',
-                                         current_content)
+        current_version_match = re.search(
+            rf'url "https://github\.com/{re.escape(repo)}/releases/download/'
+            r'v([\d\.]+)/',
+            current_content)
         if not current_version_match:
             print("  ❌ Could not find version in formula")
+            failed.append(repo)
             continue
 
         current_ver = current_version_match.group(1)
@@ -154,6 +155,8 @@ def main() -> None:
                   f"(skipping checksum verification)")
 
     print("\n🎉 Formula version bump process completed!")
+    if failed:
+        raise SystemExit(f"Failed to parse version for: {', '.join(failed)}")
 
 
 if __name__ == "__main__":
