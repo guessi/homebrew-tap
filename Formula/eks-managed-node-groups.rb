@@ -5,24 +5,24 @@ class EksManagedNodeGroups < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.8.0/eks-managed-node-groups-Darwin-arm64.tar.gz"
-      sha256 "ef9c935a7ed5448714e668c94ddc3fadd057edca5d1ab7ff9318fe61d0ea52ad"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.9.0/eks-managed-node-groups-Darwin-arm64.tar.gz"
+      sha256 "cd542819c64516a212ad3e5cd333f3890184fe1db70dc91f725934b40f823c04"
     end
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.8.0/eks-managed-node-groups-Darwin-x86_64.tar.gz"
-      sha256 "167dbd641569a43953a312fc3ef8bd274836362ac82eccdd17241a9ebbd36d3a"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.9.0/eks-managed-node-groups-Darwin-x86_64.tar.gz"
+      sha256 "412c184872abd172a6d38643092794a84b9e22760387945b4bab64ee05665690"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.8.0/eks-managed-node-groups-Linux-arm64.tar.gz"
-      sha256 "d033c6f741a028bebb3f8f51687264c60d0722d84eb7e5a44dcf3a60bf121f58"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.9.0/eks-managed-node-groups-Linux-arm64.tar.gz"
+      sha256 "ef26642d456778aae1fa06d0aaaa93460fc81a823bd1bdd91c0f892ac2c25ac6"
     end
 
     on_intel do
-      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.8.0/eks-managed-node-groups-Linux-x86_64.tar.gz"
-      sha256 "3687e47d16285f743d378b4049c37fbcc55e91a41eea8aa804816a88ee988683"
+      url "https://github.com/guessi/eks-managed-node-groups/releases/download/v1.9.0/eks-managed-node-groups-Linux-x86_64.tar.gz"
+      sha256 "5ee547a8afb34f87bf80279e6ef7ff8a31d719c0c7aeaeea5c6fba27afbba3da"
     end
   end
 
